@@ -1,5 +1,5 @@
 # ICPC-Notebook
-Notebook for WashU at ICPC. Sources adapted from INSA Lyon, which are mainly from Razvan Stancioiu and the Stanford University ACM team.
+Notebook for WashU at ICPC. Sources adapted from INSA Lyon, which are mainly from Razvan Stancioiu and the Stanford University ACM team. Additional snippets from [IME++](https://github.com/imeplusplus/icpc-notebook/), mostly taking ones that appear in https://cp-algorithms.com/
 
 # Usage
 C++ and Python notebook files are located in the cpp/ and python/ directories, respectively.

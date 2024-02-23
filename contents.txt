@@ -1,6 +1,17 @@
 [Techniques]
 techniques.txt	Various algorithm techniques
 
+[Data Structures]
+imeplusplus/data-structures/bit.cpp	Fenwick Tree (Binary Index Tree)
+imeplusplus/data-structures/seg_tree.cpp	Segment Tree
+cpp/trees/Segment.h	Segment Tree (from Lyon)
+imeplusplus/data-structures/sparse.cpp	Sparse Table
+imeplusplus/data-structures/treap.cpp	Treap (Cartesian Tree)
+cpp/trees/Cartezian.h	Cartesian Tree (from Lyon)
+imeplusplus/data-structures/trie.cpp	Trie
+imeplusplus/data-structures/union_find.cpp	Union Find (Disjoint Set Union/Merge Find)
+cpp/graph/Union-Find.h	Union-Find Set (from Lyon)
+
 [Dynamic Programming]
 imeplusplus/dynamic-programming/divide_and_conquer_optimization.cpp	Divide and Conquer Optimization
 imeplusplus/dynamic-programming/knuth_optimization.cpp	Knuth Optimization
@@ -36,11 +47,6 @@ cpp/graph/StronglyConnectedComponents.h	Strongly Connected Components
 imeplusplus/graphs/kosaraju.cpp	Strongly Connected Components (Kosaraju)
 imeplusplus/graphs/tarjan.cpp	Tarjan
 imeplusplus/graphs/zero_one_bfs.cpp	Zero One BFS
-cpp/graph/Union-Find.h	Union-Find Set
-
-[Tree]
-cpp/trees/Cartezian.h	Cartesian Tree
-cpp/trees/Segment.h	Segment Tree
 
 [Math with Numbers]
 cpp/math/ExtendedEuclid.h	Extended Euclid's Algorithm
