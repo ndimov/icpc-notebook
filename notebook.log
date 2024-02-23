@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.20)  23 FEB 2024 00:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2024.1.20)  23 FEB 2024 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -388,24 +388,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 (./notebook.aux)
 \openout1 = `notebook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -441,7 +441,7 @@ LaTeX Font Info:    ... okay on input line 72.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 72.
+Package hyperref Info: Link coloring OFF on input line 76.
 (./notebook.out) (./notebook.out)
 \@outlinefile=\write3
 \openout3 = `notebook.out'.
@@ -471,11 +471,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 77.
+(Font)              <12> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 77.
+(Font)              <8> on input line 81.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 77.
+(Font)              <6> on input line 81.
  (./notebook.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 1.
@@ -496,18 +496,12 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 (./techniques.txt
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 87.
+(Font)              size <5> substituted on input line 43.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}])
-(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (./python/dp/kadane.py) (./python/dp/lcs.py
-LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <5.5> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 2.
-) (./python/dp/levenshtein.py) (./python/dp/lis.py)
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
@@ -516,41 +510,72 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-) [2]
-(./cpp/geometry/Convexhull.h) (./python/geometry/convex_hull.py)
-(./cpp/geometry/Delaunay.h) (./cpp/geometry/Geometry.h [3]) [4]
-(./cpp/graph/Dijkstra.h) (./cpp/graph/Dinic.h) (./cpp/graph/MinCostMaxFlow.h
-[5]) (./cpp/graph/EulerianPath.h) (./cpp/graph/Hopcroft-Karp.h)
-(./cpp/graph/LCA.h [6]) (./cpp/graph/StronglyConnectedComponents.h)
-(./cpp/graph/Union-Find.h) (./cpp/trees/Cartezian.h [7]) (./cpp/trees/Segment.h
-[8]) (./python/graphs/graph_structure_bfs_dfs.py) (./python/graphs/bfs.py)
+)
+(./imeplusplus/dynamic-programming/divide_and_conquer_optimization.cpp
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <5.5> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 1.
+ [2])
+(./imeplusplus/dynamic-programming/knuth_optimization.cpp)
+(./imeplusplus/dynamic-programming/lis.cpp)
+(./imeplusplus/dynamic-programming/SOS.cpp) (./cpp/geometry/Convexhull.h)
+(./cpp/geometry/Delaunay.h [3]) (./cpp/geometry/Geometry.h [4])
+(./imeplusplus/graphs/bfs.cpp) (./imeplusplus/graphs/dfs.cpp)
+(./cpp/graph/Dijkstra.h) [5] (./imeplusplus/graphs/dijkstra.cpp)
+(./imeplusplus/graphs/bellman_ford.cpp) (./imeplusplus/graphs/kahn.cpp)
+(./imeplusplus/graphs/kruskal.cpp) (./imeplusplus/graphs/prim.cpp)
+(./cpp/graph/Dinic.h [6]) (./cpp/graph/MinCostMaxFlow.h [7])
+(./imeplusplus/graphs/min_cost_max_flow.cpp) (./cpp/graph/EulerianPath.h)
+(./cpp/graph/Hopcroft-Karp.h [8]) (./imeplusplus/graphs/2_sat_kosaraju.cpp)
+(./imeplusplus/graphs/bridges_and_articulations.cpp)
+(./imeplusplus/graphs/hungarian.cpp)
+(./imeplusplus/graphs/hungarian_navarro.cpp [9]) (./imeplusplus/graphs/kuhn.cpp
+) (./cpp/graph/LCA.h [10]) (./cpp/graph/StronglyConnectedComponents.h)
+(./imeplusplus/graphs/kosaraju.cpp) (./imeplusplus/graphs/tarjan.cpp [11])
+(./imeplusplus/graphs/zero_one_bfs.cpp) (./cpp/graph/Union-Find.h)
+(./cpp/trees/Cartezian.h [12]) (./cpp/trees/Segment.h)
+(./cpp/math/ExtendedEuclid.h) (./cpp/math/FastSieve.h [13])
+(./cpp/math/GcdLcm.h) (./imeplusplus/math/euler_phi.cpp)
+(./cpp/math/ModularLinearEquationSolver.h) (./cpp/math/FFT.h [14])
+(./cpp/math/GaussJordan.h) (./cpp/string/AhoCorasick.h [15])
+(./cpp/string/Kmp.h) (./cpp/string/SuffixArray.h [16])
+(./imeplusplus/strings/manacher.cpp
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 1
+1.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+))
+(./imeplusplus/strings/z_function.cpp)
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(./python/geometry/convex_hull.py) (./python/dp/kadane.py) (./python/dp/lcs.py)
+[17] (./python/dp/levenshtein.py) (./python/dp/lis.py)
+(./python/graphs/graph_structure_bfs_dfs.py) (./python/graphs/bfs.py)
 (./python/graphs/bfs_paths.py) (./python/graphs/bfs_shortest_path.py)
 (./python/graphs/dfs.py) (./python/graphs/dfs_paths.py)
-(./python/graphs/dijkstra.py) (./python/graphs/mergefind_and_kruskal.py
-[9]) (./python/graphs/bellman_ford.py) (./python/graphs/floyd_warshall.py)
-(./python/graphs/maxflow.py [10]) (./python/math/segment_tree.py) [11]
-(./cpp/math/ExtendedEuclid.h) (./cpp/math/FastSieve.h) (./python/math/sieve.py)
-(./cpp/math/GcdLcm.h) (./python/math/gcd_totient.py)
-(./python/math/miller_rabin.py) (./cpp/math/ModularLinearEquationSolver.h
-[12]) (./cpp/math/FFT.h) (./python/math/gauss_jordan.py [13])
-(./cpp/math/GaussJordan.h) (./cpp/string/AhoCorasick.h [14])
-(./python/strings/kmp.py) (./cpp/string/Kmp.h) (./python/strings/rabin_karp.py
-[15]) (./cpp/string/SuffixArray.h)) [16] (./notebook.aux)
+(./python/graphs/dijkstra.py) [18] (./python/graphs/mergefind_and_kruskal.py)
+(./python/graphs/bellman_ford.py) (./python/graphs/floyd_warshall.py)
+(./python/graphs/maxflow.py [19]) (./python/math/segment_tree.py [20])
+(./python/math/sieve.py) (./python/math/gcd_totient.py)
+(./python/math/miller_rabin.py) (./python/math/gauss_jordan.py)
+(./python/strings/kmp.py [21]) (./python/strings/rabin_karp.py)) [22]
+(./notebook.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
 Package rerunfilecheck Info: File `notebook.out' has not changed.
-(rerunfilecheck)             Checksum: 550D9902179C6B4EBE95A16A115BCB2C;10137.
+(rerunfilecheck)             Checksum: F158172C69149F628E598A5A9A3BE453;14573.
  ) 
 Here is how much of TeX's memory you used:
- 15401 strings out of 477985
- 234001 string characters out of 5840058
- 3106388 words of memory out of 5000000
- 32824 multiletter control sequences out of 15000+600000
- 518498 words of font info for 53 fonts, out of 8000000 for 9000
+ 16674 strings out of 477985
+ 254759 string characters out of 5840058
+ 3169388 words of memory out of 5000000
+ 33115 multiletter control sequences out of 15000+600000
+ 518791 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 89i,12n,92p,478b,2314s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,12n,92p,513b,2434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/
@@ -559,10 +584,10 @@ amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 e/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texmf-dist/fonts/ty
 pe1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro
 8a.pfb>
-Output written on notebook.pdf (16 pages, 261689 bytes).
+Output written on notebook.pdf (22 pages, 313182 bytes).
 PDF statistics:
- 3334 PDF objects out of 3580 (max. 8388607)
- 3265 compressed objects within 33 object streams
- 2479 named destinations out of 2487 (max. 500000)
- 441 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4567 PDF objects out of 5155 (max. 8388607)
+ 4480 compressed objects within 45 object streams
+ 3387 named destinations out of 3580 (max. 500000)
+ 665 words of extra memory for PDF output out of 10000 (max. 10000000)
 

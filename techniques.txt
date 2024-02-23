@@ -64,11 +64,11 @@ Combinatorics
 	Pigeon-hole principle
 	Inclusion/exclusion
 	Catalan number
-	Pick's theorem
+	Pick's theorem (Area = interior + boundary/2 - 1)
 Number theory
 	Integer parts
 	Divisibility
-	Euklidean algorithm
+	Euclidean algorithm
 	Modular arithmetic
 	* Modular multiplication
 	* Modular inverses

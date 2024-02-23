@@ -2,32 +2,75 @@
 techniques.txt	Various algorithm techniques
 
 [Dynamic Programming]
-python/dp/kadane.py	Max Sum Subarray (Kadane's Algorithm)
-python/dp/lcs.py	Longest Common Subsequence
-python/dp/levenshtein.py	Levenshtein Distance
-python/dp/lis.py	Longest Increasing Subsequence
+imeplusplus/dynamic-programming/divide_and_conquer_optimization.cpp	Divide and Conquer Optimization
+imeplusplus/dynamic-programming/knuth_optimization.cpp	Knuth Optimization
+imeplusplus/dynamic-programming/lis.cpp	Longest Increasing Subsequence
+imeplusplus/dynamic-programming/sos.cpp	Sum Over Subsets DP
 
 [Geometry]
 cpp/geometry/Convexhull.h	Convex Hull Algorithm
-python/geometry/convex_hull.py	Convex Hull (Python)
 cpp/geometry/Delaunay.h	Delaunay Triangulation
 cpp/geometry/Geometry.h	Various Geometry Functions
 
 [Graphs]
+imeplusplus/graphs/bfs.cpp	BFS
+imeplusplus/graphs/dfs.cpp	DFS
 cpp/graph/Dijkstra.h	Dijkstra's Algorithm
+imeplusplus/graphs/dijkstra.cpp	Shortest Path (Dijkstra)
+imeplusplus/graphs/bellman_ford.cpp	Shortest Path (Bellman-Ford)
+imeplusplus/graphs/kahn.cpp	Topological Sort (Kahn)
+imeplusplus/graphs/kruskal.cpp	Minimum Spanning Tree (Kruskal)
+imeplusplus/graphs/prim.cpp	Minimum Spanning Tree (Prim)
 cpp/graph/Dinic.h	Max Flow (Dinic's Algorithm)
 cpp/graph/MinCostMaxFlow.h	Max Flow (Edmonds-Karp Algorithm)
+imeplusplus/graphs/min_cost_max_flow.cpp	Min Cost Max Flow
 cpp/graph/EulerianPath.h	Eulerian Path
 cpp/graph/Hopcroft-Karp.h	Hopcroft-Karp Algorithm
+imeplusplus/graphs/2_sat_kosaraju.cpp	2-SAT Kosaraju
+imeplusplus/graphs/bridges_and_articulations.cpp	Articulation points and bridges
+imeplusplus/graphs/hungarian.cpp	Hungarian
+imeplusplus/graphs/hungarian_navarro.cpp	Hungarian Navarro
+imeplusplus/graphs/kuhn.cpp	Max Bipartite Cardinality Matching (Kuhn)
 cpp/graph/LCA.h	Lowest Common Ancestor
 cpp/graph/StronglyConnectedComponents.h	Strongly Connected Components
+imeplusplus/graphs/kosaraju.cpp	Strongly Connected Components (Kosaraju)
+imeplusplus/graphs/tarjan.cpp	Tarjan
+imeplusplus/graphs/zero_one_bfs.cpp	Zero One BFS
 cpp/graph/Union-Find.h	Union-Find Set
 
 [Tree]
 cpp/trees/Cartezian.h	Cartesian Tree
 cpp/trees/Segment.h	Segment Tree
 
-[Python Graphs/Trees]
+[Math with Numbers]
+cpp/math/ExtendedEuclid.h	Extended Euclid's Algorithm
+cpp/math/FastSieve.h	Fast Prime Number Sieve
+cpp/math/GcdLcm.h	GCD and LCM
+imeplusplus/math/euler_phi.cpp	Euler Phi/Totient
+
+[Math with Matrices?]
+cpp/math/ModularLinearEquationSolver.h	Modular Linear Equation Solver
+cpp/math/FFT.h	Fast Fourier Transform
+cpp/math/GaussJordan.h	Gauss-Jordan Elimination
+
+[Strings]
+cpp/string/AhoCorasick.h	Aho-Corasick Algorithm
+cpp/string/Kmp.h	Knuth-Morris-Pratt Algorithm
+cpp/string/SuffixArray.h	Suffix Array
+imeplusplus/strings/manacher.cpp	Manacher (Longest Palindromic Substring)
+imeplusplus/strings/z_function.cpp	Z Function
+
+[Python Stuff...]
+[Geometry]
+python/geometry/convex_hull.py	Convex Hull
+
+[Dynamic Programming]
+python/dp/kadane.py	Max Sum Subarray (Kadane's Algorithm)
+python/dp/lcs.py	Longest Common Subsequence
+python/dp/levenshtein.py	Levenshtein Distance
+python/dp/lis.py	Longest Increasing Subsequence
+
+[Graphs/Trees]
 python/graphs/graph_structure_bfs_dfs.py	Graph structure example for our DFS and BFS algorithms
 python/graphs/bfs.py	Breadth-First Search
 python/graphs/bfs_paths.py	Breadth-First Search Paths
@@ -41,23 +84,12 @@ python/graphs/floyd_warshall.py	Floyd-Warshall Algorithm
 python/graphs/maxflow.py	Max Flow (Ford-Fulkerson Algorithm)
 python/math/segment_tree.py	Segment Tree
 
-[Math with Numbers]
-cpp/math/ExtendedEuclid.h	Extended Euclid's Algorithm
-cpp/math/FastSieve.h	Fast Prime Number Sieve
+[Math]
 python/math/sieve.py	Prime Number Sieve (generator)
-cpp/math/GcdLcm.h	GCD and LCM
 python/math/gcd_totient.py	GCD and Euler's Totient Function
 python/math/miller_rabin.py	Miller-Rabin Primality Test
-
-[Math with Matrices?]
-cpp/math/ModularLinearEquationSolver.h	Modular Linear Equation Solver
-cpp/math/FFT.h	Fast Fourier Transform
 python/math/gauss_jordan.py	Gauss-Jordan Elimination (Matrix inversion and linear system solving)
-cpp/math/GaussJordan.h	Gauss-Jordan Elimination
 
 [Strings]
-cpp/string/AhoCorasick.h	Aho-Corasick Algorithm
 python/strings/kmp.py	Knuth-Morris-Pratt Algorithm (fast pattern matching)
-cpp/string/Kmp.h	Knuth-Morris-Pratt Algorithm
 python/strings/rabin_karp.py	Rabin-Karp Algorithm (multiple pattern matching)
-cpp/string/SuffixArray.h	Suffix Array
